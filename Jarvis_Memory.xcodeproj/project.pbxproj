@@ -6,26 +6,39 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		0A5F779216486C66006ABD9A /* Jarvis_Memory_Top.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Jarvis_Memory_Top.py; sourceTree = "<group>"; };
+		0A5F779316486D38006ABD9A /* Find_Keywords_Jmemory.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Find_Keywords_Jmemory.py; sourceTree = "<group>"; };
+		0A5F77941648700D006ABD9A /* Jarvis_Memory_Dictionary.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Jarvis_Memory_Dictionary.py; sourceTree = "<group>"; };
+		0AA91C611648C6D800875AE8 /* Jarvis_Memory_Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Jarvis_Memory_Notes.rtf; sourceTree = "<group>"; };
+		0AA91C621648C7D000875AE8 /* Jarvis_Memory.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jarvis_Memory.dat; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		0A5F778516486BB9006ABD9A = {
 			isa = PBXGroup;
 			children = (
+				0A5F779216486C66006ABD9A /* Jarvis_Memory_Top.py */,
+				0A5F779316486D38006ABD9A /* Find_Keywords_Jmemory.py */,
+				0A5F77941648700D006ABD9A /* Jarvis_Memory_Dictionary.py */,
+				0AA91C621648C7D000875AE8 /* Jarvis_Memory.dat */,
+				0AA91C611648C6D800875AE8 /* Jarvis_Memory_Notes.rtf */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		0A5F778C16486BB9006ABD9A /* Jarvis_Memory */ = {
+		0A5F778C16486BB9006ABD9A /* python3.2 */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = 0A5F778F16486BB9006ABD9A /* Build configuration list for PBXLegacyTarget "Jarvis_Memory" */;
+			buildConfigurationList = 0A5F778F16486BB9006ABD9A /* Build configuration list for PBXLegacyTarget "python3.2" */;
 			buildPhases = (
 			);
 			buildToolPath = /Library/Frameworks/Python.framework/Versions/3.2/bin/python3.2;
 			dependencies = (
 			);
-			name = Jarvis_Memory;
+			name = python3.2;
 			passBuildSettingsInEnvironment = 1;
 			productName = Jarvis_Memory;
 		};
@@ -49,7 +62,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A5F778C16486BB9006ABD9A /* Jarvis_Memory */,
+				0A5F778C16486BB9006ABD9A /* python3.2 */,
 			);
 		};
 /* End PBXProject section */
@@ -139,13 +152,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A5F778F16486BB9006ABD9A /* Build configuration list for PBXLegacyTarget "Jarvis_Memory" */ = {
+		0A5F778F16486BB9006ABD9A /* Build configuration list for PBXLegacyTarget "python3.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A5F779016486BB9006ABD9A /* Debug */,
 				0A5F779116486BB9006ABD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
