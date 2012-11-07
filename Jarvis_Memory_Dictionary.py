@@ -15,7 +15,7 @@ class jmemory_dict(dict):
         return(Memory_Dictionary)
     
     ## Writes a new dictionary to the pickle doc. Should only be used privately in this class
-    def write(New_Dictionary):
+    def write_DO_NOT_USE(New_Dictionary):
         JMemory_File_Location = "/Users/kevin/Library/Jarvis/Jarvis_Memory/Jarvis_Memory.dat"
         JMemory_File = open(JMemory_File_Location,'wb')
         pickle.dump(New_Dictionary, JMemory_File)
@@ -25,10 +25,10 @@ class jmemory_dict(dict):
     ## Adds a new keyword and value pair to the dictionary. Note that it adds it to the dictionary currently used in the code and the one stored in the pickle doc, ensuring that they always match.
     def add(self,keyword,value):
         self[keyword] = value
-        jmemory_dict.write(self)
+        jmemory_dict.write_DO_NOT_USE(self)
         
     ## Removes keyword and value pair from the dictionary, given the keyword. Note that it removes it from the dictionary currently used in the code and the one stored in the pickle doc, ensuring that they always match.
     def remove(self,keyword):
         del self[keyword]
-        jmemory_dict.write(self)
+        jmemory_dict.write_DO_NOT_USE(self)
 

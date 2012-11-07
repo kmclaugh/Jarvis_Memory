@@ -10,6 +10,8 @@
 		0A5F779216486C66006ABD9A /* Jarvis_Memory_Top.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Jarvis_Memory_Top.py; sourceTree = "<group>"; };
 		0A5F779316486D38006ABD9A /* Find_Keywords_Jmemory.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Find_Keywords_Jmemory.py; sourceTree = "<group>"; };
 		0A5F77941648700D006ABD9A /* Jarvis_Memory_Dictionary.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Jarvis_Memory_Dictionary.py; sourceTree = "<group>"; };
+		0AA6B0A416497B21001D1F80 /* Value_Objects_Jmemory.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Value_Objects_Jmemory.py; sourceTree = "<group>"; };
+		0AA6B0A5164991A8001D1F80 /* add_memory_executable.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = add_memory_executable.py; sourceTree = "<group>"; };
 		0AA91C611648C6D800875AE8 /* Jarvis_Memory_Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Jarvis_Memory_Notes.rtf; sourceTree = "<group>"; };
 		0AA91C621648C7D000875AE8 /* Jarvis_Memory.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jarvis_Memory.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -19,6 +21,8 @@
 			isa = PBXGroup;
 			children = (
 				0A5F779216486C66006ABD9A /* Jarvis_Memory_Top.py */,
+				0AA6B0A5164991A8001D1F80 /* add_memory_executable.py */,
+				0AA6B0A416497B21001D1F80 /* Value_Objects_Jmemory.py */,
 				0A5F779316486D38006ABD9A /* Find_Keywords_Jmemory.py */,
 				0A5F77941648700D006ABD9A /* Jarvis_Memory_Dictionary.py */,
 				0AA91C621648C7D000875AE8 /* Jarvis_Memory.dat */,
